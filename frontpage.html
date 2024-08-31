@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+      <title>Learning By Detikcom - Landing Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    Detikcom Learning Management System (2023)
+    Contributors:
+    1. Mahesa Pandu Wicaksana (https://www.linkedin.com/in/mahesapndu/) - Backend & Frontend
+    2. Dimas Ramadhan Agustian (https://www.linkedin.com/in/xaralien/) - Backend & Frontend
+    3. Adib Dwi Kusuma (http://linkedin.com/in/adibdk) - UI/UX Designer 
+    4. Kadek Ari Dharmika (https://www.linkedin.com/in/ari-dharmika) - Frontend Design 
+  -->
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="https://learning.detik.com/frontpage/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://learning.detik.com/frontpage/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://learning.detik.com/frontpage/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://learning.detik.com/frontpage/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://learning.detik.com/frontpage/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://learning.detik.com/frontpage/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://learning.detik.com/frontpage/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://learning.detik.com/frontpage/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://learning.detik.com/frontpage/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="https://learning.detik.com/frontpage/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://learning.detik.com/frontpage/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="https://learning.detik.com/frontpage/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://learning.detik.com/frontpage/favicon-16x16.png">
+  <link rel="manifest" href="https://learning.detik.com/frontpage/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="https://learning.detik.com/frontpage/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://learning.detik.com/frontpage/style/css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://vjs.zencdn.net/8.6.1/video-js.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+<body>
+    <nav class=" navbar navbar-expand-lg">
+    <div class='container'>
+        <div class='mobile-nav'>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://learning.detik.com/frontpage/">
+                <img src="https://learning.detik.com/frontpage/assets/images/navbar/logo.png" alt="Detikcom">
+            </a>
+        </div>
+
+                    <div class='d-block d-lg-none'>
+                <a class="register-button btn btn-sm btn-outline-primary " href='https://learning.detik.com/frontpage/register'>Register</a>
+                <a class="login-button btn btn-sm btn-primary " href='https://learning.detik.com/frontpage/login'>Login</a>
+            </div>
+        
+
+                <div class="collapse navbar-collapse navbar-content" id="navbarTogglerDemo03">
+            <form class="search-form form-inline my-2 my-lg-0">
+                <label for="search">
+                    <img src="https://learning.detik.com/frontpage/assets/images/navbar/search-form.svg" alt="">
+                </label>
+                <input id="nav-search" class="form-control mr-sm-2" type="search" placeholder="Cari Course" value="" aria-label="Search">
+            </form>
+
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item ">
+                    <a class="nav-link " href="https://learning.detik.com/frontpage/all-course">All Course</a>
+                </li>
+                                <!-- <li class="nav-item">
+                    <a class="nav-link" href="https://www.detik.com/edu/" target='_blank'>Blog</a>
+                </li> -->
+                                    <li class="nav-item d-lg-block d-none">
+                        <a class="register-button btn btn-sm btn-outline-primary " href='https://learning.detik.com/frontpage/register'>Register</a>
+                    </li>
+                    <li class="nav-item d-lg-block d-none">
+                        <a class="login-button btn btn-sm btn-primary " href='https://learning.detik.com/frontpage/login'>Login</a>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+</nav>
+    <section id='hero'>
+        <div class='hero-content container'>
+            <div class="hero-swiper swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="https://learning.detik.com/frontpage/assets/images/hero/learning-with-bestie-min.png" alt="">
+                    </div>
+                                            <a href='https://learning.detik.com/frontpage/course-detail/33' class="swiper-slide">
+                            <img src="https://learning.detik.com/pluginfile.php/382/course/overviewfiles/fix%20foto%20dan%20jutnalistik%20%281%29.png" alt="Spreadsheet Introduction for Professional User">
+                        </a>
+                                    </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+            <div class='desc-container'>
+                <h1 class='hero-headline'>Upgrade Dirimu, Upgrade Karirmu! <img src="https://learning.detik.com/frontpage/assets/images/emoji/rocket.png" alt="🚀" class='emoji'></h1>
+                <h4>Belajar bersama detikcom kapan pun dan dimana pun!</h4>
+            </div>
+
+            <a href="https://learning.detik.com/frontpage/all-course"><button type='button' class='btn hero-button'>Mulai Belajar Sekarang!</button></a>
+        </div>
+    </section>
+
+    <section id='latest-class'>
+        <div class='container latest-class-container '>
+            <div class='desc col-xl-4 col-12'>
+                <div class='text'>
+                    <h1>Kelas Terbaru</h1>
+                    <p>Temukan ilmu baru dengan berbagai judul kelas terbaru di detikLearning!</p>
+                </div>
+                <a href="https://learning.detik.com/frontpage/all-course"><button type='button' class='btn latest-class-cta'>Lihat Semua</button></a>
+            </div>
+            <div class="swiper latest-class-swiper col-xl-8 col-12">
+                <div class="swiper-wrapper">
+                                            <a href='https://learning.detik.com/frontpage/course-detail/33' class="swiper-slide">
+                            <div class='image-sizing col-6'>
+                                <div class='image-ratio  '>
+                                    <img src="https://learning.detik.com/pluginfile.php/382/course/overviewfiles/fix%20foto%20dan%20jutnalistik%20%281%29.png" alt="Spreadsheet Introduction for Professional User" alt="">
+                                </div>
+                            </div>
+                            <div class='slide-desc col-6 '>
+                                <!-- <span class='course-trainer'>Trainer: Danu Damarjati</span> -->
+                                <h4 class='course-title'>Spreadsheet Introduction for Professional User</h4>
+                                <p class='course-desc'>Kursus "Spreadsheet Introduction for Professional User" ini dirancang untuk memberikan pemahaman tentang penggunaan dasar Google Spreadsheet bagi pengguna spreadsheet tingkat pemula hingga menengah yang ingin meningkatkan keterampilan mereka untuk pe ...</p>
+                            </div>
+                        </a>
+                                            <a href='https://learning.detik.com/frontpage/course-detail/32' class="swiper-slide">
+                            <div class='image-sizing col-6'>
+                                <div class='image-ratio  '>
+                                    <img src="https://learning.detik.com/pluginfile.php/373/course/overviewfiles/seo-writing.jpg" alt="SEO Writing" alt="">
+                                </div>
+                            </div>
+                            <div class='slide-desc col-6 '>
+                                <!-- <span class='course-trainer'>Trainer: Danu Damarjati</span> -->
+                                <h4 class='course-title'>SEO Writing</h4>
+                                <p class='course-desc'>Kursus "SEO Writing" dalam Digital Journalism Bootcamp ini akan mengenalkan kamu dengan organic traffic sebagai sumber traffic, keuntungan SEO bagi jurnalis, dan tips menulis artikel yang SEO friendly.Kursus ini dibagi menjadi dua bagian:1. Organic T ...</p>
+                            </div>
+                        </a>
+                                            <a href='https://learning.detik.com/frontpage/course-detail/31' class="swiper-slide">
+                            <div class='image-sizing col-6'>
+                                <div class='image-ratio  '>
+                                    <img src="https://learning.detik.com/pluginfile.php/371/course/overviewfiles/potret-jutnalistik.jpg" alt="Memotret Jurnalistik dengan Telepon Genggam" alt="">
+                                </div>
+                            </div>
+                            <div class='slide-desc col-6 '>
+                                <!-- <span class='course-trainer'>Trainer: Danu Damarjati</span> -->
+                                <h4 class='course-title'>Memotret Jurnalistik dengan Telepon Genggam</h4>
+                                <p class='course-desc'>Kursus "Memotret Jurnalistik dengan Telepon Genggam" dalam Digital Journalism Bootcamp memberikan pemaham mengenai cara praktikal menggunakan telepon genggam sebagai alat memotret untuk jurnalis. Di kursus ini, kalian juga akan belajar tujuh hal dasa ...</p>
+                            </div>
+                        </a>
+                                            <a href='https://learning.detik.com/frontpage/course-detail/30' class="swiper-slide">
+                            <div class='image-sizing col-6'>
+                                <div class='image-ratio  '>
+                                    <img src="https://learning.detik.com/pluginfile.php/366/course/overviewfiles/foto-dan-jutnalistik.jpg" alt="Foto dan Jurnalistik di Era Digital" alt="">
+                                </div>
+                            </div>
+                            <div class='slide-desc col-6 '>
+                                <!-- <span class='course-trainer'>Trainer: Danu Damarjati</span> -->
+                                <h4 class='course-title'>Foto dan Jurnalistik di Era Digital</h4>
+                                <p class='course-desc'>Kursus “Foto dan Jurnalistik di Era Digital” dalam Digital Journalism Bootcamp memberikan pemahaman mengenai perubahan praktik dan metode jurnalistik akibat perkembangan media sosial. Selain itu, kursus ini juga mengajarkan kamu dalam mengaplikas ...</p>
+                            </div>
+                        </a>
+                                        <!-- <div class="swiper-slide">
+                        <div class='image-sizing col-6'>
+                            <div class='image-ratio  '>
+                                <img src="https://learning.detik.com/frontpage/assets/images/latest-class/course1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class='slide-desc col-6 '>
+                            <span class='course-trainer'>Trainer: Danu Damarjati</span>
+                            <h4 class='course-title'>Penulisan Feature</h4>
+                            <p class='course-desc'>Kursus "Penulisan Feature" dalam Digital Journalism Bootcamp ini bertujuan untuk mengajarkan peserta cara menulis feature berkarakter detikcom. Kalian akan diperkenalkan dengan pengertian penulisan feature, tulisan feature yang sesuai dengan karakter detik.com, dan latihan langsung dengan membedah contoh feature yang diangkat dari isu aktual.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class='image-sizing col-6'>
+                            <div class='image-ratio  '>
+                                <img src="https://learning.detik.com/frontpage/assets/images/latest-class/course1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class='slide-desc col-6 '>
+                            <span class='course-trainer'>Trainer: Danu Damarjati</span>
+                            <h4 class='course-title'>Penulisan Feature</h4>
+                            <p class='course-desc'>Kursus "Penulisan Feature" dalam Digital Journalism Bootcamp ini bertujuan untuk mengajarkan peserta cara menulis feature berkarakter detikcom. Kalian akan diperkenalkan dengan pengertian penulisan feature, tulisan feature yang sesuai dengan karakter detik.com, dan latihan langsung dengan membedah contoh feature yang diangkat dari isu aktual.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class='image-sizing col-6'>
+                            <div class='image-ratio  '>
+                                <img src="https://learning.detik.com/frontpage/assets/images/latest-class/course1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class='slide-desc col-6 '>
+                            <span class='course-trainer'>Trainer: Danu Damarjati</span>
+                            <h4 class='course-title'>Penulisan Feature</h4>
+                            <p class='course-desc'>Kursus "Penulisan Feature" dalam Digital Journalism Bootcamp ini bertujuan untuk mengajarkan peserta cara menulis feature berkarakter detikcom. Kalian akan diperkenalkan dengan pengertian penulisan feature, tulisan feature yang sesuai dengan karakter detik.com, dan latihan langsung dengan membedah contoh feature yang diangkat dari isu aktual.</p>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="course-category">
+        <div class="container course-category-container">
+            <div class="course-category-header">
+                <h1>Berbagai Macam Kategori</h1>
+                <h4>Eksplor berbagai kelas inspiratif di setiap kategori</h4>
+            </div>
+            <div class="swiper course-category-swiper">
+                <div class="swiper-wrapper">
+                                            <a class="swiper-slide business" href='https://learning.detik.com/frontpage/category/business'>
+                            <h4 class='category-title'>Business</h4>
+                            <span class='category-desc'>Business related courses</span>
+                        </a>
+                                            <a class="swiper-slide content" href='https://learning.detik.com/frontpage/category/content'>
+                            <h4 class='category-title'>Content</h4>
+                            <span class='category-desc'>Content related courses</span>
+                        </a>
+                                            <a class="swiper-slide corporate" href='https://learning.detik.com/frontpage/category/corporate'>
+                            <h4 class='category-title'>Corporate</h4>
+                            <span class='category-desc'>Corporate related courses</span>
+                        </a>
+                                            <a class="swiper-slide product" href='https://learning.detik.com/frontpage/category/product'>
+                            <h4 class='category-title'>Product</h4>
+                            <span class='category-desc'>Product related courses</span>
+                        </a>
+                                            <a class="swiper-slide self-development" href='https://learning.detik.com/frontpage/category/self-development'>
+                            <h4 class='category-title'>Self Development</h4>
+                            <span class='category-desc'>Self Development courses</span>
+                        </a>
+                                    </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id='user-testimonial'>
+        <div class='container user-testimonial-container'>
+
+            <div class='desc col-12 col-xl-4'>
+                <div class='desc-header'>
+                    <h1>Apa Kata Mereka?</h1>
+                    <h4>Mari lihat ulasan dan pendapat #anakdetik tentang pembelajaran di detikLearning</h4>
+                </div>
+                <a href='https://learning.detik.com/frontpage/testimony' class='btn read-all-testimonial'>
+                    Baca Semua
+                </a>
+            </div>
+
+            <div class="swiper user-testimonial-swiper col-xl-8 col-12">
+                <div class="swiper-wrapper">
+                                        <a href='./testimony' class="swiper-slide ">
+                        <div class='testimonial-content'>
+
+                            <img src="https://learning.detik.com/frontpage/assets/images/user-testimonial/testimonial-quote.svg" alt="">
+                            <p class='testimonial'>
+                                Sebagai seorang jurnalis, detikLearning telah menjadi aset berharga dalam pengembangan keterampilan saya. Materi pembelajaran mereka sangat relevan dan memberikan wawasan yang berharga dalam bidang jurnalistik. Ini adalah tempat yang luar biasa untuk meningkatkan kemampuan saya dalam menyampaikan informasi dengan lebih efektif
+                            </p>
+                        </div>
+                        <p class='testimonial-identity'>Adib Dwi Kusuma | UI/UX Designer | CTARSA Foundation</p>
+                    </a>
+                    <a href='./testimony' class="swiper-slide ">
+                        <div class='testimonial-content'>
+
+                            <img src="https://learning.detik.com/frontpage/assets/images/user-testimonial/testimonial-quote.svg" alt="">
+                            <p class='testimonial'>
+                                detikLearning adalah teman terbaik dalam perjalanan pembelajaran saya. Saya telah menjelajahi berbagai kursus yang sangat informatif dan berharga. Melalui platform ini, saya dapat terus meningkatkan pengetahuan saya di berbagai bidang, dan hasil belajar saya bahkan diakui dengan sertifikat yang sangat bermanfaat. Terima kasih detikLearning karena telah membuat pembelajaran begitu menyenangkan dan bermanfaat!
+                            </p>
+                        </div>
+                        <p class='testimonial-identity'>Ridha Fatima Az-Zahra | Employer Branding | detikcom</p>
+                    </a>
+                    <a href='./testimony' class="swiper-slide ">
+                        <div class='testimonial-content'>
+
+                            <img src="https://learning.detik.com/frontpage/assets/images/user-testimonial/testimonial-quote.svg" alt="">
+                            <p class='testimonial'>
+                                detikLearning benar-benar mengubah cara saya belajar secara online. Materi pembelajaran yang mereka tawarkan sangat bermanfaat dan relevan dengan pekerjaan saya. Saya sangat menghargai kebebasan untuk menjelajahi berbagai kelas tanpa batasan, dan mendapatkan sertifikat setelah menyelesaikan kursus memberikan nilai tambah untuk karir saya. Terima kasih detikLearning, saya merasa lebih percaya diri dan siap menghadapi tantangan baru di tempat kerja
+                            </p>
+                        </div>
+                        <p class='testimonial-identity'>Fatimah Az-Zahra | Learning & Organization Development | detikcom</p>
+                    </a>
+                    <a href='./testimony' class="swiper-slide ">
+                        <div class='testimonial-content'>
+
+                            <img src="https://learning.detik.com/frontpage/assets/images/user-testimonial/testimonial-quote.svg" alt="">
+                            <p class='testimonial'>
+                                detikLearning adalah platform edukatif yang visioner, yang mewakili komitmen manajemen dalam mengembangkan potensi karyawan. Sebagai seorang pegawai magang, saya sangat menghargai kelas-kelas yang ditawarkan di sini karena sangat membantu saya dalam meningkatkan kemampuan dan pengetahuan saya
+                            </p>
+                        </div>
+                        <p class='testimonial-identity'>Pryananda | Video Editor | detikcom</p>
+                    </a>
+                    <a href='./testimony' class="swiper-slide ">
+                        <div class='testimonial-content'>
+
+                            <img src="https://learning.detik.com/frontpage/assets/images/user-testimonial/testimonial-quote.svg" alt="">
+                            <p class='testimonial'>
+                                detikLearning benar-benar mengubah cara saya belajar secara online. Materi pembelajaran yang mereka tawarkan sangat bermanfaat dan relevan dengan pekerjaan saya. Saya sangat menghargai kebebasan untuk menjelajahi berbagai kelas tanpa batasan, dan mendapatkan sertifikat setelah menyelesaikan kursus memberikan nilai tambah untuk karir saya. Terima kasih detikLearning, saya merasa lebih percaya diri dan siap menghadapi tantangan baru di tempat kerja
+                            </p>
+                        </div>
+                        <p class='testimonial-identity'>Kadek Ari | Front-End Desginer | detikcom</p>
+                    </a>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id='certificate-entry'>
+        <div class='container d-flex flex-wrap justify-content-between align-items-center gap-3 gap-lg-0'>
+            <div class='wording col-lg-6 col-12 text-center text-lg-start'>
+                <h1>
+                    Cek Kredensial 🕵️
+                </h1>
+                <p>
+                    Verifikasi nomor sertifikat kamu di sini!
+                </p>
+            </div>
+            <div class='cta col-lg-6 col-12  gap-3'>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Lihat Caranya
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h1>Langkah untuk memverifikasi sertifikat detikLearning:</h1>
+                                <ol>
+                                    <li>
+                                        Klik tombol Verifikasi. <br>
+                                        <img src="https://learning.detik.com/frontpage/assets/images/certificate-entry-point/step1.png" alt="">
+                                    </li>
+                                    <li>
+                                        Kamu bisa melihat Nomor Sertifikat di Certificate ID pada file sertifikat kamu. <br>
+                                        <img src="https://learning.detik.com/frontpage/assets/images/certificate-entry-point/step2.png" alt="">
+                                    </li>
+                                    <li>
+                                        Masukkan Certificate ID yang tertera di sertifikat kamu ke kolom berikut. <br>
+                                        <img src="https://learning.detik.com/frontpage/assets/images/certificate-entry-point/step3.png" alt="">
+                                    </li>
+                                    <li>
+                                        Klik “Verifikasi” untuk memverifikasi Nomor Sertifikat kamu. <br>
+                                        <img src="https://learning.detik.com/frontpage/assets/images/certificate-entry-point/step4.png" alt="">
+                                    </li>
+                                    <li>
+                                        Apabila Nomor Sertifikat terdaftar, maka akan muncul informasi seperti ini. <br>
+                                        <img src="https://learning.detik.com/frontpage/assets/images/certificate-entry-point/step5.png" alt="">
+                                    </li>
+                                    <li>
+                                        Apabila Nomor Sertifikat tidak terdaftar, maka akan muncul informasi seperti ini. <br>
+                                        <img src="https://learning.detik.com/frontpage/assets/images/certificate-entry-point/step6.png" alt="">
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class='btn btn-solid ' href='https://learning.detik.com/frontpage/certificate'>Coba Verifikasi</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id='featured-content'>
+        <div class='container featured-content-container'>
+            <h1>Only for detikcom</h1>
+            <div class='content'>
+                <div class='content-type'>
+                    <h2>
+                        1000+
+                    </h2>
+                    <span>
+                        Employees <br>
+                        Learners
+                    </span>
+                </div>
+                <div class='content-type'>
+                    <h2>
+                        40+
+                    </h2>
+                    <span>
+                        Amazing <br>
+                        Classes
+                    </span>
+                </div>
+                <div class='content-type'>
+                    <h2>
+                        160+
+                    </h2>
+                    <span>
+                        Amazing <br>
+                        Videos
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='get-to-know'>
+        <img src="https://learning.detik.com/frontpage/assets/images/get-to-know/play-button-clay.png" alt="" class='img-bg img1'>
+        <img src="https://learning.detik.com/frontpage/assets/images/get-to-know/play-button-clay.png" alt="" class='img-bg img2'>
+        <div class='container'>
+            <div class='video-container col-lg-6 col-12'>
+                <div class='container-ratio'>
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/pru0sV1Ynts?si=AZ-n11SjJ0OtW0c2?autoplay=1&rel=0" title="YouTube video player" frameborder="0')?>" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share')?>" allowfullscreen></iframe> -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZWydMRFGKU4?si=Ws8FQ6ppw61dvv5D" title="YouTube video player" frameborder="0)?>" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+
+            </div>
+            <div class='desc col-lg-6 col-12 ps-0 ps-lg-5 pt-5 pt-lg-0 d-flex flex-column justify-content-center'>
+                <h2>Get To Know: detikLearning <img src="https://learning.detik.com/frontpage/assets/images/emoji/light-bulb.png" alt="" class="emoji"></h2>
+                <p>detikLearning adalah platform Learning Management System (LMS) yang disediakan oleh detikcom sebagai sarana untuk pembelajaran dan pengembangan diri #anakdetik, karyawan detikcom. Platform ini memungkinkan karyawan untuk mengakses beragam video pembelajaran dari instruktur yang berpengalaman di bidangnya, dengan ketersediaan akses di mana saja dan kapan saja. Melalui detikLearning, detikcom memberikan fasilitas yang memungkinkan karyawan menjalani proses pembelajaran yang fleksibel, mendalam, dan sesuai dengan kebutuhan #anakdetik.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id='faq'>
+        <div class='container faq-container'>
+            <h1>Frequently Asked Questions <img src="https://learning.detik.com/frontpage/assets/images/emoji/thinking-face.png" alt="" class="emoji"></h1>
+
+            <div class='faq-content'>
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Apa itu detiklearning?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                detikLearning adalah platform e-learning yang disediakan untuk seluruh karyawan detikcom. detiklearning menyediakan beragam kursus dan materi pembelajaran dari berbagai kategori untuk meningkatkan pengetahuan dan keterampilan #anakdetik demi perkembangan diri dan karier yang lebih baik.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Bagaimana cara untuk membuat akun detiklearning?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Untuk membuat akun detiklearning, Kamu dapat mengklik tombol "Daftar" pada halaman beranda, lalu ikuti panduan pendaftaran dengan menggunakan alamat email detik kamu untuk mendaftar.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Bagaimana cara untuk login ke detiklearning?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Untuk login ke akun detiklearning, cukup klik tombol "Login" dan masukkan alamat email detik Kamu beserta kata sandi yang Kamu gunakan saat mendaftar.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion" id="accordion2">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#acc1" aria-expanded="false" aria-controls="collapseTwo">
+                                Apakah saya bisa mengakses semua kelas di detiklearning?
+
+                            </button>
+                        </h2>
+                        <div id="acc1" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion2">
+                            <div class="accordion-body">
+                                Ya, Kamu dapat mengakses semua kelas di detiklearning. Seluruh karyawan detik dapat mengeksplorasi berbagai kelas dan kategori sesuai minat dan preferensinya.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#acc2" aria-expanded="false" aria-controls="collapseTwo">
+                                Bagaimana cara mengunduh video pembelajaran di detiklearning?
+                            </button>
+                        </h2>
+                        <div id="acc2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion2">
+                            <div class="accordion-body">
+                                Saat ini, video pembelajaran di detiklearning tidak dapat diunduh. Seluruh hak cipta dari video didalam detiklearning merupakan milik detik, sehingga kamu tidak diperkenankan untuk mengunduh video learning dan mengunggak video detiklearning di media lain.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#acc3" aria-expanded="false" aria-controls="collapseThree">
+                                Apakah saya dapat mengakses detiklearning secara offline?
+
+                            </button>
+                        </h2>
+                        <div id="acc3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion2">
+                            <div class="accordion-body">
+                                Detiklearning saat ini hanya dapat diakses secara online, dan Anda perlu koneksi internet untuk mengaksesnya. Kami sedang mengevaluasi opsi akses offline untuk masa depan, jadi tetap pantau informasi terbaru dari kami!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id='footer'>
+    <div class='container footer-container'>
+        <div class='line1'>
+            <div class='footer-logo'>
+                <img src="https://learning.detik.com/frontpage/assets/images/navbar/logo.png" alt="">
+            </div>
+            <div class='section-nav'>
+                <a href="https://learning.detik.com/frontpage/all-course">All Course</a>
+                <a href="https://learning.detik.com/frontpage/my-course">My Course</a>
+                <a href="https://learning.detik.com/frontpage/dashboard">Dashboard</a>
+            </div>
+        </div>
+        <div class='line2'>
+            <div class='sosmed-logo'>
+                <a href="https://www.facebook.com/detikcom" target="_blank">
+                    <img src="https://learning.detik.com/frontpage/assets/images/footer/facebook.png" alt="" />
+                </a>
+                <a href="https://twitter.com/detikcom" target="_blank">
+                    <img src="https://learning.detik.com/frontpage/assets/images/footer/twitter.png" alt="" />
+                </a>
+                <a href="https://www.instagram.com/detikcom/" target="_blank">
+                    <img src="https://learning.detik.com/frontpage/assets/images/footer/instagram.png" alt="" />
+                </a>
+                <a href="https://www.linkedin.com/company/detik-com/" target="_blank">
+                    <img src="https://learning.detik.com/frontpage/assets/images/footer/linkedin.png" alt="" />
+                </a>
+                <a href="https://www.youtube.com/detikcom" target="_blank">
+                    <img src="https://learning.detik.com/frontpage/assets/images/footer/youtube.png" alt="" />
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class='copyright'>
+        <span>Copyright © 2024 detikcom Learning. All rights reserved.</span>
+    </div>
+</footer>
+</body>
+
+<script>
+  var baseURI = 'https://learning.detik.com/frontpage';
+</script>
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js'></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+    if (calendarEl) {
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth'
+      });
+      calendar.render();
+    }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
+
+<script src='https://learning.detik.com/frontpage/script/navbar.js'></script>
+
+<script>
+  const heroSwiper = new Swiper('.hero-swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    // autoplay: {
+    //     delay: 3000,
+    //     disableOnInteraction: false,
+    //   },
+
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
+</script>
+
+
+<script>
+  const latestClass = new Swiper(".latest-class-swiper", {
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    freeMode: true,
+
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+  const courseCategorySwiper = new Swiper(".course-category-swiper", {
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    freeMode: true,
+
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+  const userTestimonialSwiper = new Swiper(".user-testimonial-swiper", {
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    freeMode: true,
+
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+  const continueClassSwiper = new Swiper(".continue-class-swiper", {
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    freeMode: true,
+
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+  const completedClassSwiper = new Swiper(".completed-class-swiper", {
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    freeMode: true,
+
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+  const classRecommendationSwiper = new Swiper(".class-recommendation-swiper", {
+
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    freeMode: true,
+
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
+<script src='https://learning.detik.com/frontpage/script/course-progress.js'></script>
+</html>
